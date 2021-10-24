@@ -1,0 +1,125 @@
+.container {
+    margin-top: 110px;
+    max-height: 500px;
+}
+
+.card {
+    border: none;
+    outline: none;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #333;
+    opacity: .7;
+    box-shadow: 0px 10px 10px -6px black;
+    transition: transform .3s;
+    max-height: 500px;
+}
+
+#imgc {
+    height: 160px;
+    width: 160px;
+}
+
+.title {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text1 {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.info {
+    line-height: 17px;
+}
+
+.precio {
+    color: #b6f8ae;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tarjeta {
+    background: #dc3534;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.card img {
+    margin: auto;
+}
+
+.card h5 {
+    text-align: center;
+}
+
+.centrado {
+    margin: auto;
+    text-align: center;
+}
+
+.card-body p,
+span {
+    color: #b6f8ae;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 0;
+    display: inline;
+    text-align: center;
+}
+
+.cam {
+    font-size: 16px;
+    opacity: .5;
+    text-align: center;
+}
+
+.comprar {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    background-color: green;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 10px -6px black;
+}
+
+.btnCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn1 {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: green;
+    opacity: .7;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 10px -6px black;
+}
+
+#vaciar-carrito {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.tituloGaleria {
+    margin-bottom: -80px;
+}
+
+.carR {
+    text-transform: uppercase;
+    color: green;
+    text-align: center;
+}

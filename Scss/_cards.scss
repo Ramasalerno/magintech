@@ -1,0 +1,32 @@
+
+/* MODIFICACION TARJETAS DE INFORMACION INICIO  CON GRID*/
+
+.contenedor__cajas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+
+    .contenedor__cajas__card {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #333;
+        opacity: .7;
+        box-shadow: 0px 10px 10px -6px black;
+
+        &:hover {
+            opacity: 1;
+            transition: .7s;
+        }
+    }
+
+    .contenedor__cajas__card h2 {
+        margin-bottom: 5px;
+        padding-bottom: 20px;
+    }
+
+}

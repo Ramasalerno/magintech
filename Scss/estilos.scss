@@ -1,0 +1,61 @@
+@import "marca";
+@import "formulario";
+@import "cards";
+@import "responsive";
+@import "productos";
+
+:root {
+    --text-color: #FFF;
+    --bg-color: #333;
+}
+
+@mixin textos ($tamano, $fweight) {
+    color: var(--text-color);
+    font-size: $tamano;
+    font-weight: $fweight;
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* MODIFICACION ESTILO TEXTOS Y TITULOS  */
+
+p {
+    @include textos(15px, 200);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+h1 {
+    @include textos(60px, normal);
+    letter-spacing: 2px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px;
+}
+
+h2 {
+    @include textos(30px, normal)
+}
+
+
+/*  MODIFICACION DE FOOTER  */
+
+footer {
+    height: 55px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: var(--bg-color);
+}

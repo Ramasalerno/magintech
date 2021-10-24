@@ -1,0 +1,91 @@
+/* APLICANDO RESPONSIVE DESIGN PARA CELULARES */
+
+@media only screen and (max-width: 575px) {
+
+    .contenedor__cajas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .contenedor__principal {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 50%;
+        }
+    }
+
+    .cont{
+        width: 90%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-54%, -50%);
+    }
+
+    .formulario {
+        width: 85%;
+
+        .formulario__contenedor input {
+            width: 85%;
+            height: 40px;
+        }
+
+        .formulario__contenedor textarea {
+            margin-top: 10px;
+            width: 85%;
+            border-radius: 15px;
+        }
+
+        .formulario__contenedor textarea {
+            margin-top: 10px;
+            width: 85%;
+            border-radius: 15px;
+        }
+
+        .formulario__contenedor__boton input {
+            width: 95%;
+        }
+    }
+}
+
+/* TABLETS Y PHABLETS  */
+
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+    .contenedor__cajas {
+        width: 100%;
+    }
+
+    .contenedor__principal {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 50%;
+        }
+    }
+
+    .formulario {
+        width: 85%;
+
+        .formulario__contenedor input {
+            width: 85%;
+            height: 40px;
+        }
+
+        .formulario__contenedor textarea {
+            margin-top: 10px;
+            width: 85%;
+            border-radius: 15px;
+        }
+
+        .formulario__contenedor__boton input {
+            width: 95%;
+        }
+    }
+}
