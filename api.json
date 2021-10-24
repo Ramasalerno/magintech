@@ -10,7 +10,7 @@
     "id": 2,
     "title": "Laptop KD8000",
     "desc": "Notebook modelo KD, color negro, pantalla HD, procesador i3 8gb de ram 1tb HDD",
-    "direccion": "../imagenes/laptop2.svg"
+    "direccion": "Imagenes/laptop2.svg"
 },
 {
     "precio": 1200,
