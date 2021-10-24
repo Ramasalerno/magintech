@@ -17,42 +17,42 @@
     "id": 3,
     "title": "Laptop Dell",
     "desc": "Notebook modelo Dell Vostro, color azul, pantalla FHD, procesador i7 8gb de ram 1tb HDD",
-    "direccion": "../imagenes/laptopdell.png"
+    "direccion": "Imagenes/laptopdell.png"
 },
 {
     "precio": 950,
     "id": 4,
     "title": "Monitor ASUS",
     "desc": ">Monitor Asus kg4500, resolucion 4K, tasa de refresco 144Mhz",
-    "direccion": "../imagenes/moni1.png"
+    "direccion": "Imagenes/moni1.png"
 },
 {
     "precio": 1600,
     "id": 5,
     "title": "PC gamer TT",
     "desc": "Pc gamer, procesador R7, 16gb Ram, SSD 1tb NVME, grafica dedicada 6gb DDR5",
-    "direccion": "../imagenes/pcgamer2.png"
+    "direccion": "Imagenes/pcgamer2.png"
 },
 {
     "precio": 2150,
     "id": 6,
     "title": "Pc gamer SPARTAN",
     "desc": "PC gamer SPARTAN, i7 11va gen, 32gb ram, SSD 2tb",
-    "direccion": "../imagenes/pcgamer.png"
+    "direccion": "Imagenes/pcgamer.png"
 },
 {
     "precio": 2750,
     "id": 7,
     "title": "Kit gamer AZZA",
     "desc": "Procesador R7, 32gb Ram, SSD 1tb NVME, grafica dedicada 12gb DDR5, monitor 24''",
-    "direccion": "../imagenes/kitgamer.png"
+    "direccion": "Imagenes/kitgamer.png"
 },
 {
     "precio": 1900,
     "id": 8,
     "title": "PC gamer RGB",
     "desc": "Pc gamer, procesador i7, 12gb Ram, SSD 512gb NVME, grafica dedicada 2gb DDR5",
-    "direccion": "../imagenes/pcgamer3.png"
+    "direccion": "Imagenes/pcgamer3.png"
 }
 ,
 {
@@ -60,6 +60,6 @@
     "id": 9,
     "title": "Kit gamer Lion",
     "desc": "Procesador i5, 16gb Ram, SSD 2tb NVME, kit teclado mouse y monitor",
-    "direccion": "../imagenes/pcgamer4.png"
+    "direccion": "Imagenes/pcgamer4.png"
 }
 ]

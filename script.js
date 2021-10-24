@@ -180,7 +180,7 @@ $("h6").prepend(
 $("#btn1").on("click", function () {
     if ($.isEmptyObject(carrito)) {
         Swal.fire({
-            imageUrl: 'imagenes/meme.jpg',
+            imageUrl: 'Imagenes/meme.jpg',
             title: "Uyyyy...",
             imageHeight: 300,
 
