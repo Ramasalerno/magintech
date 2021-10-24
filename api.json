@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Laptop Dell",
     "desc": "Notebook modelo Dell, color gris, pantalla FHD, procesador i5 8gb de ram 256ssd",
-    "direccion": "../imagenes/test.png"
+    "direccion": "Imagenes/test.png"
 },
 {
     "precio": 850,
